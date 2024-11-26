@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usługi Elektryczne - Twoja Firma</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Ikony -->
+    <head>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    
+</head>
+<body>
+    <!-- Górny pasek nawigacyjny -->
+    <header class="header">
+      <div class="logo">
+        <a href="index.html">
+          <img src="https://www.designer.pl/upload/shops/17396.1594427500.9521.jpg" alt="Logo T-elektryk">
+        </a>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Strona Główna</a></li>
+          <li><a href="#services">Usługi</a></li>
+          <li><a href="#about">O nas</a></li>
+          <li><a href="#contact">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+
+    <!-- Sekcja Hero -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Profesjonalne Usługi Elektryczne</h1>
+            <p>Zaufaj doświadczonym elektrykom – oferujemy szeroki zakres usług na najwyższym poziomie.</p>
+            <a href="#contact" class="btn">Skontaktuj się z nami</a>
+        </div>
+    </section>
+
+    <!-- Sekcja O Nas -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>O Nas</h2>
+            <p>Nasza firma specjalizuje się w usługach elektrycznych dla klientów indywidualnych oraz firm. Posiadamy wieloletnie doświadczenie oraz wykwalifikowany zespół fachowców.</p>
+        </div>
+    </section>
+
+    <!-- Sekcja Usługi -->
+    <section id="services">
+        <div class="container">
+          <div class="section-title">ZAKRES USŁUG</div>
+          <div class="services-grid">
+            <!-- Usługa 1 -->
+            <div class="service-item">
+              <img src="icon1.png" alt="Ikona" class="service-icon">
+              <div class="service-text">
+                <h3>Kompleksowe instalacje elektryczne</h3>
+                <p>Mieszkania, domy, hale produkcyjne, budynki zakładowe.</p>
+              </div>
+            </div>
+            <!-- Usługa 2 -->
+            <div class="service-item">
+              <img src="icon2.png" alt="Ikona" class="service-icon">
+              <div class="service-text">
+                <h3>Modernizacja instalacji</h3>
+                <p>Wymiana i modernizacja instalacji elektrycznych.</p>
+              </div>
+            </div>
+            <!-- Usługa 3 -->
+            <div class="service-item">
+              <img src="icon3.png" alt="Ikona" class="service-icon">
+              <div class="service-text">
+                <h3>Wymiana lub montaż</h3>
+                <p>Gniazda, włączniki, lampy oraz sprzęt elektryczny.</p>
+              </div>
+            </div>
+            <!-- Usługa 4 -->
+            <div class="service-item">
+              <img src="icon4.png" alt="Ikona" class="service-icon">
+              <div class="service-text">
+                <h3>Podłączanie sprzętu AGD</h3>
+                <p>Podłączenie pralek, piekarników i innych urządzeń AGD.</p>
+              </div>
+            </div>
+            <!-- Usługa 5 -->
+            <div class="service-item">
+              <img src="icon5.png" alt="Ikona" class="service-icon">
+              <div class="service-text">
+                <h3>Rozdzielnie i tablice</h3>
+                <p>Wymiana, modernizacja i montaż rozdzielni oraz WLZ-ów.</p>
+              </div>
+            </div>
+            <!-- Usługa 6 -->
+            <div class="service-item">
+              <img src="icon6.png" alt="Ikona" class="service-icon">
+              <div class="service-text">
+                <h3>Zasilanie placów budowy</h3>
+                <p>Kompleksowe zasilanie tymczasowe placów budowy.</p>
+              </div>
+            </div>
+            <!-- Usługa 7 -->
+            <div class="service-item">
+              <img src="icon7.png" alt="Ikona" class="service-icon">
+              <div class="service-text">
+                <h3>Montaż klimatyzacji</h3>
+                <p>Instalacja i serwis urządzeń klimatyzacyjnych.</p>
+              </div>
+            </div>
+            <!-- Usługa 8 -->
+            <div class="service-item">
+              <img src="icon8.png" alt="Ikona" class="service-icon">
+              <div class="service-text">
+                <h3>Pogotowie elektryczne</h3>
+                <p>Awaryjne naprawy instalacji elektrycznych 24/7.</p>
+              </div>
+            </div>
+            <!-- Usługa 9 -->
+            <div class="service-item">
+              <img src="icon9.png" alt="Ikona" class="service-icon">
+              <div class="service-text">
+                <h3>Inne usługi</h3>
+                <p>Oświetlenie LED, przyłącza kablowe, wymiana instalacji.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+      
+    <!-- Sekcja Kontakt -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Kontakt</h2>
+            <p>Skontaktuj się z nami, aby uzyskać więcej informacji o naszej ofercie:</p>
+            <form action="send_form.php" method="POST">
+                <input type="text" name="name" placeholder="Twoje imię" required>
+                <input type="email" name="email" placeholder="Twój email" required>
+                <textarea name="message" placeholder="Twoja wiadomość" required></textarea>
+                <button type="submit" class="btn">Wyślij</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Stopka -->
+<footer id="footer">
+  <div class="container">
+    <div class="footer-content">
+      <!-- Informacje kontaktowe -->
+      <div class="contact-info">
+        <h3>Elektryk</h3>
+        <p>Pracujemy 24h/7. O kontakt w godzinach nocnych prosimy wyłącznie w pilnych przypadkach.</p>
+        <p><strong>Elektryk </strong> +48 000 000 000</p>
+        <p>Email: skibidi@gmail.com</p>
+        <div class="social-links">
+          <!-- Linki do mediów społecznościowych z ikonami -->
+          <a href="https://facebook.com" target="_blank">
+            <i class="fab fa-facebook"></i> Facebook
+          </a>
+          <a href="https://instagram.com" target="_blank">
+            <i class="fab fa-instagram"></i> Instagram
+          </a>
+        </div>
+      </div>
+
+      <!-- Mapa -->
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436.6316345965645!2d21.01752941599233!3d53.12603838005375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4721dfe6e4512e6d%3A0x9a56abfa7b9f7b7f!2sT-elektryk%20-%20us%C5%82ugi%20elektryczne%20i%20klimatyzacja!5e0!3m2!1spl!2spl!4v1694201285099!5m2!1spl!2spl" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+    <!-- Projekt info -->
+    <div class="footer-bottom">
+      <p></p>
+    </div>
+  </div>
+</footer>
+
+
